@@ -1,0 +1,32 @@
+.sec3{
+    position: relative;
+    text-align: center;
+}
+.sec3 .sec3-textbox1{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.sec3 .sec3-textbox1 p{
+    color: white;
+    width: 40%;
+}
+.sec3 .sec3-textbox1 h1{
+    color: white;
+    width: 40%;
+}
+.sec3 .sec3-textbox2{
+    position: absolute;
+    top: 30%;
+    left: 60%;
+}
+.sec3 .sec3-textbox2 p{
+    color: white;
+    width: 85%;
+}
+.sec3 .sec3-textbox2 h1{
+    color: white;
+    width: 85%;
+
+}
+

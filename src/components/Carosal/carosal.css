@@ -1,0 +1,43 @@
+.banner1 {
+  margin-top: 64px;
+  height: 90vh;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+video{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.text-box1 {
+  margin-top: 50px;
+  text-align: center;
+  left: 35%;
+  animation-delay: 0s;
+}
+
+.text-box1 img {
+  height: 300px;
+}
+.text-box {
+  width: 600px;
+  position: absolute;
+  color: #fff;
+  animation: zoom-in-zoom-out 12s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(0, 0);
+  }
+
+  10% {
+    transform: scale(1, 1);
+  }
+}
